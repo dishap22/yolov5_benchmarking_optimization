@@ -2,6 +2,8 @@
 
 ## Running
 
+Start off in the `yolov5_benchmarking_optimization` directory. 
+
 First, create a virtual environment
 
 `conda create -n yolo-benchmark python=3.11` and activate it `conda activate yolo-benchmark`.
@@ -23,7 +25,7 @@ wget https://ultralytics.com/assets/coco128.zip
 unzip coco128.zip
 ```
 
-Now, run install the Jupyter notebook dependencies
+Now, run install for the Jupyter notebook dependencies
 
 ```plaintext
 cd ..
@@ -31,3 +33,14 @@ python -m pip install -r requirements.txt
 ```
 
 Now you can run the Jupyter notebook.
+
+File structure should look like this: 
+
+```plaintext
+yolov5_benchmarking_optimization/
+  |_ datasets/
+  |_ yolov5/
+  |_ benchmarking.ipynb
+  |_ README.md
+  |_ requirements.txt
+```
