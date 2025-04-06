@@ -4,14 +4,14 @@
 
 First, create a virtual environment
 
-`python venv -m venv`
+`conda create -n yolo-benchmark python=3.11` and activate it `conda activate yolo-benchmark`.
 
 Next, clone the YOLOv5 repo and install dependencies:
 
 ```plaintext
 git clone https://github.com/ultralytics/yolov5
 cd yolov5
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 
 Now, download the COCO 128 mini dataset
@@ -27,7 +27,7 @@ Now, run install the Jupyter notebook dependencies
 
 ```plaintext
 cd ..
-pip install -r  requirements.txt
+python -m pip install -r requirements.txt
 ```
 
 Now you can run the Jupyter notebook.
